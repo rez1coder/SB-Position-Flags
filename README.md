@@ -56,14 +56,12 @@ Reward is enabled again when Stream starts/ends.
 
 You're done.
 
-<br>
+### Feature: show top 3 and don't disable reward
+- Download and extract zip file
+- Import `show_first_second_third_by_rez1.sb`
 
 > [!NOTE]
 > If you don't close streamer.bot, always keep it running, then uncomment (remove // signs from three lines) in `1st 2nd 3rd reset` c# sub-action
-
-## Feature: show top 3 and don't disable reward
-- Download and extract zip file
-- Import `show_first_second_third_by_rez1.sb`
 
 ## Credits
 [Flag Interaction](https://rive.app/marketplace/4993-10101-flag-interaction/) by [JcToon](https://rive.app/@JcToon)
