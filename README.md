@@ -3,7 +3,7 @@
 
 This system is different from the usual setup, where rewards like First, Second, and Third are claimed once and locked for the rest of the stream.
 
-Instead, this code version (inspired by [Rolocen](https://www.twitch.tv/rolocen)) keeps things dynamic, constantly changing as each position is claimed.
+Instead, this code version (inspired by [rolocen](https://www.twitch.tv/rolocen)) keeps things dynamic, constantly changing as each position is claimed.
 
 ### How It Works
 - If someone claims *First*, it changes to *Second*.
@@ -32,7 +32,9 @@ And the reward is disabled.
 
 Reward is enabled again when Stream starts/ends.
 
-### Installation
+---
+
+## Installation
 - Open the Import dialog in Streamer.bot
 - Drag and drop the downloaded `.sb` file into the `Import String` box
 
@@ -54,8 +56,10 @@ Reward is enabled again when Stream starts/ends.
 
 You're done.
 
+<br>
+
 > [!NOTE]
-> If you don't close streamer.bot and always keep it running, uncomment (remove // signs from three lines) in `1st 2nd 3rd reset` c# sub-action
+> If you don't close streamer.bot, always keep it running, then uncomment (remove // signs from three lines) in `1st 2nd 3rd reset` c# sub-action
 
 ## Feature: show top 3 and don't disable reward
 - Download and extract zip file
